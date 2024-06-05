@@ -1,7 +1,7 @@
 <!-- Banner -->
 <section class="banner {{ .style }}">
     <div class="content">
-        {{ with .title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .title }}<h1 style="color:blue;">{{ . }}</h1>{{ end }}
         {{ with .subtitle }}<h2 style=" font-weight: bold;" class="major">{{ . | safeHTML }}</h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
 
