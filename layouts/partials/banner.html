@@ -2,11 +2,11 @@
 <section class="banner {{ .style }}">
     <div class="content">
         {{ with .title }}<h1>{{ . }}</h1>{{ end }}
-        {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
+        {{ with .subtitle }}<h2 style=" font-weight: bold;" class="major">{{ . | safeHTML }}</h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
 
             <ul class="icons">
-                <li><a href="#" class="icon brands style1 fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://x.com/SwapnikaVadali" class="icon brands style1 fa-twitter"><span class="label">Twitter</span></a></li>
                 <li><a href="#" class="icon brands style1 fa-facebook-f"><span class="label">Facebook</span></a></li>
                 <li><a href="#" class="icon brands style1 fa-instagram"><span class="label">Instagram</span></a></li>
                 <li><a href="#" class="icon brands style1 fa-github"><span class="label">Github</span></a></li>
